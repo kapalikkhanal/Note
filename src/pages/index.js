@@ -3,7 +3,7 @@ import FormData from '@/components/form'
 
 function Home() {
   return (
-    <div className='bg-[#051522] md:h-screen md:w-full'>
+    <div className='bg-[#051522]'>
       <FormData />
     </div>
   )

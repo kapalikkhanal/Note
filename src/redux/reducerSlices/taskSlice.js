@@ -9,7 +9,7 @@ const taskSlice = createSlice({
     name: "login",
     initialState,
     reducers: {
-        updateLoginForm: (state, actions) => {
+        addNote: (state, actions) => {
             // debugger;
             state.userDetails.push(actions.payload)
         },
@@ -22,5 +22,5 @@ const taskSlice = createSlice({
     },
 });
 
-export const { updateLoginForm, changeUserFormValues, deleteUser } = taskSlice.actions;
+export const { addNote, changeUserFormValues, deleteUser } = taskSlice.actions;
 export default taskSlice.reducer;

@@ -1,40 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CRUD Note Application
+A simple CRUD (Create, Read, Update, Delete) Note application built using Redux, Redux Persist, Next.js, and Chakra UI. This application allows users to create, view, edit, and delete notes while preserving the state of their notes even after closing the application.
 
-## Getting Started
+## Table of Contents
+* Features
+* Demo
+* Libraries
 
-First, run the development server:
+## Features
+* Create, read, update, and delete notes.
+* State management and note persistence using Redux and Redux Persist.
+* User-friendly and responsive design using Chakra UI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Demo
+See the live demo of the application (https://note.kapalik.com.np).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Libraries
+* Redux: State management for managing and persisting notes.
+* Redux Persist: To persist and rehydrate the Redux store, maintaining the state between sessions.
+* Next.js: React framework for building client-server rendered applications with easy navigation.
+* Chakra UI: Modular component library for creating a responsive and user-friendly design.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Screenshot
+* Landing Page
+    ![1](https://github.com/kapalikkhanal/Note/assets/95576601/b4f47efb-37eb-4f3d-8cdb-4cffc255e223)
+* Edit and Update Page
+    ![2](https://github.com/kapalikkhanal/Note/assets/95576601/4139ad0e-6a4e-4f6d-a682-4290b4824a85)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
